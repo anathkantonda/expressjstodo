@@ -1,0 +1,41 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 45%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+.links {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+    font-size: 1.4rem;
+}
+
+a:hover{
+    color: pink;
+}

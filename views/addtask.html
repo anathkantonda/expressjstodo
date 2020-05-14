@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="addtask.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="color-todo.png" alt="logo">
+    </div>
+    
+    <div class="links">
+        <a href="/">Home</a>
+        <a href="listtasks">List Tasks</a>
+    </div>
+
+    <form action="/add" method="POST">
+        <label for="name">Task Name: </label>
+        <input type="text" name="name"><br>
+
+        <label for="name">Task due date: </label>
+        <input type="text" name="dueDate"><br>
+
+        <label for="name">Task Description: </label>
+        <input type="text" name="description"><br>
+        <button class="button">Add Task</button>
+    </form>
+</body>
+</html>

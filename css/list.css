@@ -1,0 +1,56 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+img {
+    width: 45%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+    font-size: 1.4rem;
+}
+
+a:hover{
+    color: rgb(192, 193, 255);
+}
+
+/* table */
+table, td{
+    border: 1px solid white;
+    margin: 0 auto;
+}
+
+table {
+    margin-bottom: 30px;
+}
+
+.name, .date, .desc, .id {
+    padding: 10px;
+    text-align: center;
+}
+
+.titles td {
+    padding: 10px;
+    text-align: center;
+}
